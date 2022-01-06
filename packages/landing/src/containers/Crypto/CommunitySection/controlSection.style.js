@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const ControlWrapper = styled.section`
   padding: 60px 0;
@@ -38,7 +38,7 @@ const ControlWrapper = styled.section`
       .readMore {
         font-size: 20px;
         font-weight: 500;
-        font-family: 'Poppins';
+        font-family: "Poppins";
         @media (max-width: 480px) {
           font-size: 16px;
         }
@@ -49,7 +49,7 @@ const ControlWrapper = styled.section`
       .readMore {
         font-size: 20px;
         font-weight: 500;
-        font-family: 'Poppins';
+        font-family: "Poppins";
         color: #32325d;
         @media (max-width: 480px) {
           font-size: 16px;
@@ -63,14 +63,14 @@ const ControlWrapper = styled.section`
           margin-right: 50px;
           font-size: 30px;
           font-weight: 700;
-          font-family: 'Poppins';
+          font-family: "Poppins";
           color: #32325d;
           justify-content: center;
           align-items: center;
           .countText {
             font-size: 16px;
             font-weight: 400;
-            font-family: 'Poppins';
+            font-family: "Poppins";
             color: #525f7f;
           }
         }
@@ -84,21 +84,21 @@ const ControlWrapper = styled.section`
       margin-top: 40px;
       .countDownMainButton {
         border-radius: 6px;
-        background-image: -moz-linear-gradient(
-          29deg,
-          rgb(255, 148, 147) 0%,
-          rgb(255, 120, 162) 100%
-        );
-        background-image: -webkit-linear-gradient(
-          29deg,
-          rgb(255, 148, 147) 0%,
-          rgb(255, 120, 162) 100%
-        );
-        background-image: -ms-linear-gradient(
-          29deg,
-          rgb(255, 148, 147) 0%,
-          rgb(255, 120, 162) 100%
-        );
+        // background-image: -moz-linear-gradient(
+        //   29deg,
+        //   rgb(255, 148, 147) 0%,
+        //   rgb(255, 120, 162) 100%
+        // );
+        // background-image: -webkit-linear-gradient(
+        //   29deg,
+        //   rgb(255, 148, 147) 0%,
+        //   rgb(255, 120, 162) 100%
+        // );
+        // background-image: -ms-linear-gradient(
+        //   29deg,
+        //   rgb(255, 148, 147) 0%,
+        //   rgb(255, 120, 162) 100%
+        // );
         &:hover {
           box-shadow: -6.691px 7.431px 20px 0px rgba(255, 131, 157, 0.2);
         }

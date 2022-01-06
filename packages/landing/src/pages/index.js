@@ -9,22 +9,24 @@ import { DrawerProvider } from "common/contexts/DrawerContext";
 import Navbar from "containers/Crypto/Navbar";
 import Banner from "containers/Crypto/BannerSection";
 import BannerSlider from "containers/Crypto/BannerSlider";
-import Transactions from "containers/Crypto/Transaction";
-import ControlSections from "containers/Crypto/ControlSection";
-import TrustedProofSections from "containers/Crypto/TrustedProof";
-import ScalableSections from "containers/Crypto/ScalableSection";
+import CommunitySection from "containers/Crypto/CommunitySection";
+import CategoriesSection from "containers/Crypto/Categories";
+import JobsSection from "containers/Crypto/Jobs";
 import SlideSections from "containers/Crypto/CryptoSlides";
 import BetaSections from "containers/Crypto/BetaSection";
 import Footer from "containers/Crypto/Footer";
+import ContactSections from "containers/Crypto/Contact";
+import TrainingSection from "containers/Crypto/TrainingSection";
+import PartnersSection from "containers/Crypto/Partners";
 
 const Crypto = () => {
   return (
     <ThemeProvider theme={cryptoTheme}>
       <Fragment>
         <Head>
-          <title>Cryptocurrency | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
-          <meta name="theme-color" content="#ec5555" />
+          <title>WorkXP</title>
+          <meta name="Description" content="WorkXP" />
+          <meta name="theme-color" content="#009DFF" />
 
           {/* Load google fonts */}
           <link
@@ -41,11 +43,19 @@ const Crypto = () => {
             </DrawerProvider>
           </Sticky>
           <Banner />
+          <div style={{ marginBottom: "120px" }}>
+            <ContactSections key="contactSectionUpper" />
+          </div>
           <BannerSlider />
-          <Transactions />
-          <ControlSections />
-          <TrustedProofSections />
-          <ScalableSections />
+          <div style={{ marginTop: "-100px" }}>
+            <PartnersSection />
+          </div>
+          <CommunitySection />
+          <TrainingSection />
+          <div style={{ marginTop: "-100px" }}>
+            <CategoriesSection />
+          </div>
+          <JobsSection />
           <SlideSections />
           <BetaSections />
           <Footer />

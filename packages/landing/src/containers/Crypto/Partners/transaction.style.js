@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const TransactionsWrapper = styled.section`
   padding: 120px 0 80px;
@@ -10,21 +10,21 @@ const TransactionsWrapper = styled.section`
   }
   button {
     border-radius: 6px;
-    background-image: -moz-linear-gradient(
-      29deg,
-      rgb(255, 148, 147) 0%,
-      rgb(255, 120, 162) 100%
-    );
-    background-image: -webkit-linear-gradient(
-      29deg,
-      rgb(255, 148, 147) 0%,
-      rgb(255, 120, 162) 100%
-    );
-    background-image: -ms-linear-gradient(
-      29deg,
-      rgb(255, 148, 147) 0%,
-      rgb(255, 120, 162) 100%
-    );
+    // background-image: -moz-linear-gradient(
+    //   29deg,
+    //   rgb(255, 148, 147) 0%,
+    //   rgb(255, 120, 162) 100%
+    // );
+    // background-image: -webkit-linear-gradient(
+    //   29deg,
+    //   rgb(255, 148, 147) 0%,
+    //   rgb(255, 120, 162) 100%
+    // );
+    // background-image: -ms-linear-gradient(
+    //   29deg,
+    //   rgb(255, 148, 147) 0%,
+    //   rgb(255, 120, 162) 100%
+    // );
     &:hover {
       box-shadow: -6.691px 7.431px 20px 0px rgba(255, 131, 157, 0.2);
     }

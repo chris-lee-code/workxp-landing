@@ -20,10 +20,7 @@
     "next-dev": "yarn workspace @superprops/next run dev",
     "next-build": "yarn workspace @superprops/next run build",
     "next-start": "yarn workspace @superprops/next run start",
-    "next-export": "yarn workspace @superprops/next run export",
-    "gatsby-dev": "yarn workspace @superprops/gatsby run dev",
-    "gatsby-build": "yarn workspace @superprops/gatsby run build",
-    "gatsby-serve": "yarn workspace @superprops/gatsby run start"
+    "next-export": "yarn workspace @superprops/next run export"
   },
   "husky": {
     "hooks": {

@@ -1,282 +1,306 @@
-import AuthorOne from '../../assets/image/crypto/author-4.jpg';
-import AuthorTwo from '../../assets/image/crypto/author-2.jpg';
-import AuthorThree from '../../assets/image/crypto/author-3.jpg';
-import AuthorFour from '../../assets/image/crypto/author-1.jpg';
-import FEATURE1 from '../../assets/image/crypto/tf1.svg';
-import FEATURE2 from '../../assets/image/crypto/tf2.svg';
-import FEATURE3 from '../../assets/image/crypto/tf3.svg';
-import FEATURE4 from '../../assets/image/crypto/tf4.svg';
-import PROOF1 from '../../assets/image/crypto/proof1.svg';
-import PROOF2 from '../../assets/image/crypto/proof2.svg';
-import PROOF3 from '../../assets/image/crypto/proof3.svg';
-import PROOF4 from '../../assets/image/crypto/proof4.svg';
-import PROOF5 from '../../assets/image/crypto/proof5.svg';
-import PROOF6 from '../../assets/image/crypto/proof6.svg';
-import JACKPOTIMG from '../../assets/image/crypto/jackpot.svg';
-import BETA1 from '../../assets/image/crypto/beta-1.svg';
-import BETA2 from '../../assets/image/crypto/beta-2.svg';
-import BETA3 from '../../assets/image/crypto/beta-3.svg';
+import YatSiu from "../../assets/image/crypto/Yat_Siu.jpeg";
+import ArthurMadrid from "../../assets/image/crypto/Arthur_Madrid.png";
+import AuthorThree from "../../assets/image/crypto/author-3.jpg";
+import AuthorFour from "../../assets/image/crypto/author-1.jpg";
+import AnimocaBrands from "../../assets/image/crypto/AnimocaBrands.gif";
+import TheSandbox from "../../assets/image/crypto/TheSandbox.png";
+import Decentraland from "../../assets/image/crypto/Decentraland.png";
+import RascalsGames from "../../assets/image/crypto/RascalsGames.jpeg";
+import PROOF1 from "../../assets/image/crypto/proof1.svg";
+import PROOF2 from "../../assets/image/crypto/proof2.svg";
+import PROOF3 from "../../assets/image/crypto/proof3.svg";
+import PROOF4 from "../../assets/image/crypto/proof4.svg";
+import PROOF5 from "../../assets/image/crypto/proof5.svg";
+import PROOF6 from "../../assets/image/crypto/proof6.svg";
+import JACKPOTIMG from "../../assets/image/crypto/jackpot.svg";
+import BETA1 from "../../assets/image/crypto/beta-1.svg";
+import BETA2 from "../../assets/image/crypto/beta-2.svg";
+import BETA3 from "../../assets/image/crypto/beta-3.svg";
 
 export const MENU_ITEMS = [
   {
-    label: 'Home',
-    path: '#banner_section',
-    offset: '0',
+    label: "Home",
+    path: "#banner_section",
+    offset: "0",
   },
   {
-    label: 'Feature',
-    path: '#trusted',
-    offset: '0',
+    label: "Partners",
+    path: "#partners",
+    offset: "0",
   },
   {
-    label: 'Offers',
-    path: '#scalable',
-    offset: '-10',
-  },
-
-  {
-    label: 'Payment Proofs',
-    path: '#featureslider',
-    offset: '-10',
+    label: "Training",
+    path: "#training",
+    offset: "0",
   },
   {
-    label: 'Contact Us',
-    path: '#footerSection',
-    offset: '380',
+    label: "Categories",
+    path: "#categories",
+    offset: "-10",
+  },
+  {
+    label: "Jobs",
+    path: "#jobs",
+    offset: "-10",
+  },
+  {
+    label: "Contact Us",
+    path: "#footerSection",
+    offset: "380",
   },
 ];
 
 export const TESTIMONIALS = [
   {
     review:
-      'Best working experience  with this amazing team & in future, we want to work together',
-    name: 'Jon Doe',
-    designation: 'CEO of Dell Co.',
-    avatar: AuthorOne,
+      "The shared network effect of Web 3.0 has the potential to end the classic capitalist zero-sum game business approach.",
+    name: "Yat Siu",
+    designation: "Chairman of Animoca Brands",
+    avatar: YatSiu,
   },
   {
-    review:
-      'Impressed with master class support of the team and really look forward for the future.',
-    name: 'Jon Doe',
-    designation: 'Co Founder of IBM',
-    avatar: AuthorTwo,
+    review: "We will have to help build the sector.",
+    name: "Arthur Madrid",
+    designation: "CEO of The Sandbox",
+    avatar: ArthurMadrid,
   },
   {
-    review:
-      'I have bought more than 10 themes on ThemeForest, and this is the first one I review.',
-    name: 'Jeny Doe',
-    designation: 'Manager of Hp co.',
+    review: "We need a completely different approach to these jobs.",
+    name: "Christopher Lee",
+    designation: "COO of Rascals Games",
     avatar: AuthorThree,
   },
   {
     review:
-      'Impressed with master class support of the team and really look forward for the future.',
-    name: 'Jon Doe',
-    designation: 'Manager of Hp co.',
+      "The key is that we need to become a platform where metaverses can acquire talents.",
+    name: "Andrew McCarthy",
+    designation: "CEO of Rascals Games",
     avatar: AuthorFour,
   },
 ];
-export const TRANSACTIONS_FEATURE = [
+export const PARTNERS_LIST = [
   {
-    image: FEATURE1,
-    title: 'Create Payment Address',
-    des: 'Provide your payout wallet address and callback URL to PayBear API.',
+    image: AnimocaBrands,
+    title: "Animoca Brands",
+    des: "Animoca Brands is a leader in digital entertainment, blockchain, and gamification.",
   },
   {
-    image: FEATURE2,
-    title: 'Ask for Payment',
-    des: 'Show your customer the wallet address as well as the payment amount.',
+    image: TheSandbox,
+    title: "The Sandbox",
+    des: "The Sandbox is a decentralised, community-driven gaming ecosystem on the Ethereum blockchain.",
   },
   {
-    image: FEATURE3,
-    title: 'Get Paid',
-    des: 'Payment is sent to the payout wallet immediately.',
+    image: Decentraland,
+    title: "Decentraland",
+    des: "Decentraland is an open source 3D virtual world platform. Users may buy virtual plots of land in the platform as NFTs via the MANA cryptocurrency.",
   },
   {
-    image: FEATURE4,
-    title: 'Get Payment Notification.',
-    des: 'Callbacks are sent to the URL you specified. You can process customer order',
+    image: RascalsGames,
+    title: "Rascals Games",
+    des: "Rascals Games is the best game company in the world, anyways.",
+  },
+];
+export const TRAININGS_ITEMS = [
+  {
+    image: JACKPOTIMG,
+    title: "Play-to-earn",
+    des: "Learn about play-to-earn model where you can make money by playing games.",
+  },
+  {
+    image: JACKPOTIMG,
+    title: "Asset Creators",
+    des: "Metaverses need creators. Learn how to effectively create pretty assets and mind them into NFTs.",
+  },
+  {
+    image: JACKPOTIMG,
+    title: "Game Developers",
+    des: "Games inside games. Learn how to create games in metaverses, and get a job you want.",
+  },
+  {
+    image: JACKPOTIMG,
+    title: "Token Managers",
+    des: "Tokenomics is a huge concept and a driving force of the blockchain game economy.",
   },
 ];
 export const PROOFS_FEATURE = [
   {
     image: PROOF1,
-    title: 'Instant trading',
-    des: 'Never miss a price swing.',
+    title: "Instant trading",
+    des: "Never miss a price swing.",
   },
   {
     image: PROOF2,
-    title: 'No hidden fees',
-    des: 'know our fees upfront.',
+    title: "No hidden fees",
+    des: "know our fees upfront.",
   },
   {
     image: PROOF3,
-    title: 'Secure storage',
-    des: 'Sleep with peace of mind.',
+    title: "Secure storage",
+    des: "Sleep with peace of mind.",
   },
   {
     image: PROOF4,
-    title: 'Systematic trading',
-    des: 'History intraday market.',
+    title: "Systematic trading",
+    des: "History intraday market.",
   },
   {
     image: PROOF5,
-    title: 'Network Effect',
-    des: 'Casinos contribute 1%.',
+    title: "Network Effect",
+    des: "Casinos contribute 1%.",
   },
   {
     image: PROOF6,
-    title: 'Bigger Rewards',
-    des: 'Players are incentivized.',
+    title: "Bigger Rewards",
+    des: "Players are incentivized.",
   },
 ];
-export const SCALABLE_FEATURE = [
+export const JOBS_ITEMS = [
   {
     image: JACKPOTIMG,
-    title: 'Daily Jackpot',
-    des: '35000 CLV',
+    title: "Personal Profile",
+    des: "Show your confidence",
   },
   {
     image: JACKPOTIMG,
-    title: 'Weekly Jackpot',
-    des: '250000 CLV',
+    title: "Build Portfolio",
+    des: "Show your skills",
   },
   {
     image: JACKPOTIMG,
-    title: 'Monthly Jackpot',
-    des: '4999697 CLV',
+    title: "Thousands of Jobs",
+    des: "Pick the best job",
   },
   {
     image: JACKPOTIMG,
-    title: 'Yearly Jackpot',
-    des: '300245785000 CLV',
+    title: "Apply Now",
+    des: "Go Full-Time!",
   },
 ];
 
 export const BETA_FEATURE = [
   {
     image: BETA1,
-    title: 'SEPA Transfers',
-    des: 'Deposit & Withdraw money.',
+    title: "SEPA Transfers",
+    des: "Deposit & Withdraw money.",
   },
   {
     image: BETA2,
-    title: '24/7 Support',
-    des: 'Always here for you.',
+    title: "24/7 Support",
+    des: "Always here for you.",
   },
   {
     image: BETA3,
-    title: 'Secure',
-    des: 'Your money is safe.',
+    title: "Secure",
+    des: "Your money is safe.",
   },
 ];
 
 export const menuWidget = [
   {
     id: 1,
-    title: 'About Us',
+    title: "About Us",
     menuItems: [
       {
         id: 1,
-        url: '#',
-        text: 'Support Center',
+        url: "#",
+        text: "Support Center",
       },
       {
         id: 2,
-        url: '#',
-        text: 'Customer Support',
+        url: "#",
+        text: "Customer Support",
       },
       {
         id: 3,
-        url: '#',
-        text: 'About Us',
+        url: "#",
+        text: "About Us",
       },
       {
         id: 4,
-        url: '#',
-        text: 'Copyright',
+        url: "#",
+        text: "Copyright",
       },
       {
         id: 5,
-        url: '#',
-        text: 'Popular Campaign',
+        url: "#",
+        text: "Popular Campaign",
       },
     ],
   },
   {
     id: 2,
-    title: 'Our Information',
+    title: "Our Information",
     menuItems: [
       {
         id: 1,
-        url: '#',
-        text: 'Return Policy',
+        url: "#",
+        text: "Return Policy",
       },
       {
         id: 2,
-        url: '#',
-        text: 'Privacy Policy',
+        url: "#",
+        text: "Privacy Policy",
       },
       {
         id: 3,
-        url: '#',
-        text: 'Terms & Conditions',
+        url: "#",
+        text: "Terms & Conditions",
       },
       {
         id: 4,
-        url: '#',
-        text: 'Site Map',
+        url: "#",
+        text: "Site Map",
       },
       {
         id: 5,
-        url: '#',
-        text: 'Store Hours',
+        url: "#",
+        text: "Store Hours",
       },
     ],
   },
   {
     id: 3,
-    title: 'My Account',
+    title: "My Account",
     menuItems: [
       {
         id: 1,
-        url: '#',
-        text: 'Press inquiries',
+        url: "#",
+        text: "Press inquiries",
       },
       {
         id: 2,
-        url: '#',
-        text: 'Social media directories',
+        url: "#",
+        text: "Social media directories",
       },
       {
         id: 3,
-        url: '#',
-        text: 'Images & B-roll',
+        url: "#",
+        text: "Images & B-roll",
       },
       {
         id: 4,
-        url: '#',
-        text: 'Permissions',
+        url: "#",
+        text: "Permissions",
       },
       {
         id: 5,
-        url: '#',
-        text: 'Speaker requests',
+        url: "#",
+        text: "Speaker requests",
       },
     ],
   },
 ];
 export const Language_NAMES = [
   {
-    label: 'English',
-    value: 'eng',
+    label: "English",
+    value: "eng",
   },
   {
-    label: 'Chinese',
-    value: 'chinese',
+    label: "Chinese",
+    value: "chinese",
   },
   {
-    label: 'Indian',
-    value: 'indian',
+    label: "Indian",
+    value: "indian",
   },
 ];

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const ContactFromWrapper = styled.div`
   display: flex;
@@ -72,11 +72,11 @@ const ContactFromWrapper = styled.div`
     position: absolute;
     right: 20px;
     border-radius: 6px;
-    background-color: rgb(106, 82, 253);
+    // background-color: "primary";
     height: 60px;
     top: 12px;
     &:hover {
-      background-color: rgb(106, 82, 253);
+      // background-color: rgb(106, 82, 253);
       border-color: gb(106, 82, 253);
       opacity: 0.85;
     }
