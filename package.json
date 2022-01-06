@@ -1,9 +1,9 @@
 {
-  "name": "superprops",
-  "description": "Modern Multipurpose Landing Pages Template Using React, Next, Styled Components and so on. It also support Gatsby Static site generator ",
-  "version": "10.0.1",
+  "name": "workxp-landing",
+  "description": "WorkXP Landing Page 2022",
+  "version": "1.0",
   "private": true,
-  "author": "RedQ, Inc",
+  "author": "WorkXP Limited",
   "devDependencies": {
     "cross-env": "^7.0.2",
     "husky": "^7.0.2",
@@ -12,8 +12,7 @@
     "rimraf": "^3.0.2"
   },
   "workspaces": [
-    "packages/landing",
-    "packages/landing-gatsby"
+    "packages/landing"
   ],
   "scripts": {
     "clean": "yarn workspaces run rimraf \"{.next,node_modules,.cache,out,dist}\" && rimraf node_modules",
