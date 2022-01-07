@@ -34,7 +34,11 @@ const JobsSection = ({
             />
             <FeatureSection>
               {JOBS_ITEMS.map((item, index) => (
-                <div key={`feature-${index}`} className="featureWrapper">
+                <div
+                  key={`feature-${index}`}
+                  className="featureWrapper"
+                  style={{ width: "100%" }}
+                >
                   <Fade up>
                     <Image src={item.image?.src} alt={item.title} />
                     <Box className="contextPortion">

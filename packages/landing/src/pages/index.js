@@ -47,7 +47,7 @@ const Crypto = () => {
             <ContactSections key="contactSectionUpper" />
           </div>
           <BannerSlider />
-          <div style={{ marginTop: "-100px" }}>
+          <div style={{ marginTop: "-80px" }}>
             <PartnersSection />
           </div>
           <CommunitySection />

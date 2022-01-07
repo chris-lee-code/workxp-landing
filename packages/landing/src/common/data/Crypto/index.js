@@ -6,16 +6,25 @@ import AnimocaBrands from "../../assets/image/crypto/AnimocaBrands.gif";
 import TheSandbox from "../../assets/image/crypto/TheSandbox.png";
 import Decentraland from "../../assets/image/crypto/Decentraland.png";
 import RascalsGames from "../../assets/image/crypto/RascalsGames.jpeg";
-import PROOF1 from "../../assets/image/crypto/proof1.svg";
-import PROOF2 from "../../assets/image/crypto/proof2.svg";
-import PROOF3 from "../../assets/image/crypto/proof3.svg";
-import PROOF4 from "../../assets/image/crypto/proof4.svg";
-import PROOF5 from "../../assets/image/crypto/proof5.svg";
-import PROOF6 from "../../assets/image/crypto/proof6.svg";
-import JACKPOTIMG from "../../assets/image/crypto/jackpot.svg";
-import BETA1 from "../../assets/image/crypto/beta-1.svg";
-import BETA2 from "../../assets/image/crypto/beta-2.svg";
-import BETA3 from "../../assets/image/crypto/beta-3.svg";
+import ROLE1 from "../../assets/image/crypto/participants.png";
+import ROLE2 from "../../assets/image/crypto/creator.png";
+import ROLE3 from "../../assets/image/crypto/builder.png";
+import ROLE4 from "../../assets/image/crypto/performer.png";
+import ROLE5 from "../../assets/image/crypto/bridger.png";
+import ROLE6 from "../../assets/image/crypto/community.png";
+
+import PROFILE from "../../assets/image/crypto/profile.png";
+import PORTFOLIO from "../../assets/image/crypto/portfolio.png";
+import JOBS from "../../assets/image/crypto/jobs.png";
+import APPLY from "../../assets/image/crypto/apply.png";
+
+import BETA1 from "../../assets/image/crypto/newsletter.png";
+import BETA2 from "../../assets/image/crypto/NFT.png";
+import BETA3 from "../../assets/image/crypto/meet.png";
+import PLAYTOEARN from "../../assets/image/crypto/earn.png";
+import ASSET from "../../assets/image/crypto/assets.png";
+import GAMEDEV from "../../assets/image/crypto/game-dev.png";
+import TOKENMANAGERS from "../../assets/image/crypto/token-manager.png";
 
 export const MENU_ITEMS = [
   {
@@ -102,76 +111,76 @@ export const PARTNERS_LIST = [
 ];
 export const TRAININGS_ITEMS = [
   {
-    image: JACKPOTIMG,
+    image: PLAYTOEARN,
     title: "Play-to-earn",
     des: "Learn about play-to-earn model where you can make money by playing games.",
   },
   {
-    image: JACKPOTIMG,
+    image: ASSET,
     title: "Asset Creators",
     des: "Metaverses need creators. Learn how to effectively create pretty assets and mind them into NFTs.",
   },
   {
-    image: JACKPOTIMG,
+    image: GAMEDEV,
     title: "Game Developers",
     des: "Games inside games. Learn how to create games in metaverses, and get a job you want.",
   },
   {
-    image: JACKPOTIMG,
+    image: TOKENMANAGERS,
     title: "Token Managers",
     des: "Tokenomics is a huge concept and a driving force of the blockchain game economy.",
   },
 ];
-export const PROOFS_FEATURE = [
+export const METAVERSE_ROLES = [
   {
-    image: PROOF1,
-    title: "Instant trading",
-    des: "Never miss a price swing.",
+    image: ROLE1,
+    title: "Participants",
+    des: "Play-to-earn, DAOists, traders",
   },
   {
-    image: PROOF2,
-    title: "No hidden fees",
-    des: "know our fees upfront.",
+    image: ROLE2,
+    title: "Creators",
+    des: "Artists, composers",
   },
   {
-    image: PROOF3,
-    title: "Secure storage",
-    des: "Sleep with peace of mind.",
+    image: ROLE3,
+    title: "Builders",
+    des: "Game designers, storytellers, worldbuilders",
   },
   {
-    image: PROOF4,
-    title: "Systematic trading",
-    des: "History intraday market.",
+    image: ROLE4,
+    title: "Performers",
+    des: "Actors, singers, streamers",
   },
   {
-    image: PROOF5,
-    title: "Network Effect",
-    des: "Casinos contribute 1%.",
+    image: ROLE5,
+    title: "Bridgers",
+    des: "Data providers, analysts",
   },
   {
-    image: PROOF6,
-    title: "Bigger Rewards",
-    des: "Players are incentivized.",
+    image: ROLE6,
+    title: "Community",
+    des: "Marketers, customer support, advisors",
   },
 ];
 export const JOBS_ITEMS = [
   {
-    image: JACKPOTIMG,
+    image: PROFILE,
     title: "Personal Profile",
     des: "Show your confidence",
   },
   {
-    image: JACKPOTIMG,
+    image: PORTFOLIO,
     title: "Build Portfolio",
     des: "Show your skills",
   },
   {
-    image: JACKPOTIMG,
+    image: JOBS,
     title: "Thousands of Jobs",
     des: "Pick the best job",
   },
   {
-    image: JACKPOTIMG,
+    image: APPLY,
     title: "Apply Now",
     des: "Go Full-Time!",
   },
@@ -180,18 +189,18 @@ export const JOBS_ITEMS = [
 export const BETA_FEATURE = [
   {
     image: BETA1,
-    title: "SEPA Transfers",
-    des: "Deposit & Withdraw money.",
+    title: "Newsletter",
+    des: "Up-to-date Progress Report",
   },
   {
     image: BETA2,
-    title: "24/7 Support",
-    des: "Always here for you.",
+    title: "Claim NFTs",
+    des: "Rewards for early supporters.",
   },
   {
     image: BETA3,
-    title: "Secure",
-    des: "Your money is safe.",
+    title: "Meet Leaders",
+    des: "Online sessions with instructors",
   },
 ];
 

@@ -8,7 +8,7 @@ import Text from "common/components/Text";
 import Heading from "common/components/Heading";
 import FeatureBlock from "common/components/FeatureBlock";
 import Container from "common/components/UI/Container";
-import { PROOFS_FEATURE } from "common/data/Crypto";
+import { METAVERSE_ROLES } from "common/data/Crypto";
 import { TrustedWrapper, FeatureSection } from "./trustedProof.style";
 import AppButton from "common/assets/image/crypto/app.svg";
 import PlayButton from "common/assets/image/crypto/playstore.svg";
@@ -37,8 +37,12 @@ const Categories = ({
           </Box>
           <Box className="colright" {...col} {...cardArea}>
             <FeatureSection>
-              {PROOFS_FEATURE.map((item, index) => (
-                <div key={`feature-${index}`} className="featureWrapper">
+              {METAVERSE_ROLES.map((item, index) => (
+                <div
+                  key={`feature-${index}`}
+                  className="featureWrapper"
+                  style={{ width: "100%" }}
+                >
                   <Image src={item?.image?.src} alt={item.title} />
                   <Box className="contextPortion">
                     <Heading
