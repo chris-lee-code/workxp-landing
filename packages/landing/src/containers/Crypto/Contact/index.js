@@ -26,10 +26,7 @@ const ContactSection = ({
       <Box {...sectionWrapper}>
         <Container className="containerClass">
           <Box {...secTitleWrapper}>
-            <FeatureBlock
-              title={<Heading {...title} />}
-              description={<Text {...description} />}
-            />
+            <FeatureBlock title={<Heading {...title} />} />
           </Box>
           <Box {...row}>
             <Box {...contactForm}>
@@ -44,16 +41,6 @@ const ContactSection = ({
                 />
                 <Button {...button} title="REGISTER!" />
               </ContactFromWrapper>
-              <Box className="contactdes">
-                <Text
-                  as="span"
-                  {...note}
-                  content="Become part of our ever growing community. "
-                />
-                <Link href="#">
-                  <a className="">Join us on Twitter. </a>
-                </Link>
-              </Box>
             </Box>
           </Box>
         </Container>

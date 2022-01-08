@@ -34,6 +34,8 @@ const TestimonialSecWrapper = styled.section`
       order: 2;
     }
     .glide__bullets {
+      display: flex;
+      justify-content: center;
       .glide__bullet {
         border-radius: 50%;
         background-color: #009dff;

@@ -70,9 +70,7 @@ const BannerSection = ({
                   {...description}
                 />
               }
-              button={<ButtonGroup />}
             />
-            <FeatureBlock button={<ShareButtonGroup />} />
           </Box>
         </Box>
       </Container>
