@@ -17,64 +17,9 @@ import FooterBG from "common/assets/image/crypto/footer-bg.svg";
 const Footer = ({ row, col, colOne, colTwo, titleStyle }) => {
   return (
     <FooterWrapper id="footerSection">
-      <ContactSections />
       <BgImageWrapper>
         <Image src={FooterBG?.src} alt="Footer background" />
       </BgImageWrapper>
-      <Container noGutter mobileGutter width="1200px">
-        <Box className="row mainRow" {...row}>
-          <Box {...colOne}>
-            <Heading content="Language" {...titleStyle} />
-            <Select
-              options={Language_NAMES}
-              placeholder="English"
-              className="Language_search_select"
-              aria-label="Language_search_input"
-            />
-            <Heading
-              content="Follow Us"
-              {...titleStyle}
-              className="appDownload"
-            />
-            <Box className="imageWrapper">
-              <Link href="#">
-                <a>
-                  <Image src={AppImage?.src} alt="App Image" />
-                </a>
-              </Link>
-              <Link href="#">
-                <a>
-                  <Image src={PlaystoreImage?.src} alt="PlaystoreImage Image" />
-                </a>
-              </Link>
-            </Box>
-          </Box>
-          {/* End of footer logo column */}
-          <Box {...colTwo}>
-            {menuWidget.map((widget) => (
-              <Box className="col" {...col} key={widget.id}>
-                <Heading content={widget.title} {...titleStyle} />
-                <List>
-                  {widget.menuItems.map((item) => (
-                    <ListItem key={`list__item-${item.id}`}>
-                      <Link href={item.url}>
-                        <a className="ListItem">{item.text}</a>
-                      </Link>
-                    </ListItem>
-                  ))}
-                </List>
-              </Box>
-            ))}
-          </Box>
-          {/* End of footer List column */}
-        </Box>
-        <Box className="row copyRight" {...row}>
-          <Text
-            content={`Copyright ${new Date().getFullYear()} @WorkXP.`}
-            className="copyRightText"
-          />
-        </Box>
-      </Container>
     </FooterWrapper>
   );
 };
@@ -120,7 +65,7 @@ Footer.defaultProps = {
   },
   // widget title default style
   titleStyle: {
-    color: "#FFFFFF",
+    color: "#000000",
     fontSize: ["15px", "16px", "16px", "18px", "18px"],
     fontWeight: "600",
     lineHeight: "1.34",
@@ -134,7 +79,7 @@ Footer.defaultProps = {
   },
   // widget text default style
   textStyle: {
-    color: "#FFFFFF",
+    color: "#000000",
     fontSize: "16px",
     mb: "12px",
     fontWeight: "600",

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const TestimonialSecWrapper = styled.section`
   padding: 0;
@@ -8,21 +8,16 @@ const TestimonialSecWrapper = styled.section`
   z-index: 1;
   margin-top: -130px;
   @media (min-width: 1600px) {
-    margin-top: -180px;
+    margin-top: -130px;
   }
   @media (max-width: 1200px) {
-    margin-top: -80px;
+    margin-top: -130px;
   }
-  @media (max-width: 990px) {
+  @media (max-width: 575px) {
     margin-top: -40px;
   }
-  @media (max-width: 575px) {
-    padding: 60px 0;
-  }
-  @media (max-width: 575px) {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 60px 0 0;
+  @media (max-width: 480px) {
+    display: none;
   }
   .glide--carousel {
     display: flex;
@@ -33,11 +28,11 @@ const TestimonialSecWrapper = styled.section`
     .glide__bullets {
       .glide__bullet {
         border-radius: 50%;
-        background-color: rgb(20, 227, 186);
+        background-color: #009dff;
         opacity: 0.231;
         transition: all 0.2s ease;
         &.glide__bullet--active {
-          background-color: rgb(20, 227, 186);
+          background-color: #009dff;
           width: 24px;
           height: 8px;
           border-radius: 15px;
@@ -57,7 +52,7 @@ const TestimonialSecWrapper = styled.section`
   }
   .testimonial_item {
     max-width: 440px;
-    @media (max-width: 480px) {
+    @media (max-width: 575px) {
       max-width: 100%;
     }
   }

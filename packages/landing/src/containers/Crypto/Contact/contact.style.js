@@ -92,16 +92,28 @@ const ContactFromWrapper = styled.div`
   }
 `;
 const SectionMainWrapper = styled.div`
-  margin-top: -450px;
+  margin-top: -350px;
   z-index: 1;
   position: relative;
+  @media (max-width: 990px) {
+    margin-top: -250px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   @media (max-width: 768px) {
+    margin-top: -230px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  @media (max-width: 575px) {
+    margin-top: -200px;
     padding-left: 30px;
     padding-right: 30px;
   }
   @media (max-width: 480px) {
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: -100px;
   }
   .containerClass {
     border-radius: 20px;

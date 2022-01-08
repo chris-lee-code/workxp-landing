@@ -43,21 +43,19 @@ const Crypto = () => {
             </DrawerProvider>
           </Sticky>
           <Banner />
-          <div style={{ marginBottom: "120px" }}>
+          <div style={{ marginBottom: "80px" }}>
             <ContactSections key="contactSectionUpper" />
           </div>
-          <BannerSlider />
-          <div style={{ marginTop: "-80px" }}>
-            <PartnersSection />
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              marginBottom: "50px",
+            }}
+          >
+            <BannerSlider />
           </div>
-          <CommunitySection />
-          <TrainingSection />
-          <div style={{ marginTop: "-100px" }}>
-            <CategoriesSection />
-          </div>
-          <JobsSection />
-          <SlideSections />
-          <BetaSections />
           <Footer />
         </ContentWrapper>
       </Fragment>

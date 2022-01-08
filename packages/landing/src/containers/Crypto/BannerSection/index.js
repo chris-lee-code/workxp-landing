@@ -24,7 +24,7 @@ const BannerSection = ({
 }) => {
   const ButtonGroup = () => (
     <Fragment>
-      <Button title="Get Started" {...btnStyle} />
+      <Button title="SIGN UP" {...btnStyle} />
       <Button
         title="Learn More"
         variant="textButton"
@@ -63,15 +63,10 @@ const BannerSection = ({
         <Box className="row" {...row}>
           <Box className="col" {...col}>
             <FeatureBlock
-              title={
-                <Heading
-                  content="A platform for all Metaverse jobs"
-                  {...title}
-                />
-              }
+              title={<Heading content="The Future of Work" {...title} />}
               description={
                 <Text
-                  content="There needs to be a platform where people look for job opportunities in metaverses. So we are here. "
+                  content="We're providing you the education to make money in Web 3.0. NFTs, Gaming, Metaverses, and much more..."
                   {...description}
                 />
               }

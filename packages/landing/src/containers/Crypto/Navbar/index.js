@@ -44,7 +44,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
             logoStyle={logoStyle}
             className="logo-alt"
           />
-          <Box {...menuWrapper}>
+          {/* <Box {...menuWrapper}>
             <ScrollSpyMenu
               className="main_menu"
               menuItems={MENU_ITEMS}
@@ -74,7 +74,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 </a>
               </Link>
             </Drawer>
-          </Box>
+          </Box> */}
         </Box>
       </Container>
     </NavbarWrapper>

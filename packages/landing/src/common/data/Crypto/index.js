@@ -1,7 +1,7 @@
 import YatSiu from "../../assets/image/crypto/Yat_Siu.jpeg";
-import ArthurMadrid from "../../assets/image/crypto/Arthur_Madrid.png";
-import AuthorThree from "../../assets/image/crypto/author-3.jpg";
-import AuthorFour from "../../assets/image/crypto/author-1.jpg";
+import MarkZuckerberg from "../../assets/image/crypto/MarkZuckerberg.jpeg";
+import TimSweeney from "../../assets/image/crypto/TimSweeney.jpeg";
+import JensenHuang from "../../assets/image/crypto/JensenHuang.jpeg";
 import AnimocaBrands from "../../assets/image/crypto/AnimocaBrands.gif";
 import TheSandbox from "../../assets/image/crypto/TheSandbox.png";
 import Decentraland from "../../assets/image/crypto/Decentraland.png";
@@ -62,29 +62,30 @@ export const MENU_ITEMS = [
 export const TESTIMONIALS = [
   {
     review:
-      "The shared network effect of Web 3.0 has the potential to end the classic capitalist zero-sum game business approach.",
+      "With the open metaverse, we have the opportunity to ensure that more people have access to opportunities and upward mobility despite their starting capital and the (broadly) capitalist nature of the ecosystem.",
     name: "Yat Siu",
     designation: "Chairman of Animoca Brands",
     avatar: YatSiu,
   },
   {
-    review: "We will have to help build the sector.",
-    name: "Arthur Madrid",
-    designation: "CEO of The Sandbox",
-    avatar: ArthurMadrid,
-  },
-  {
-    review: "We need a completely different approach to these jobs.",
-    name: "Christopher Lee",
-    designation: "COO of Rascals Games",
-    avatar: AuthorThree,
+    review: "I believe the metaverse is the next chapter for the internet.",
+    name: "Mark Zuckerberg",
+    designation: "CEO of Meta",
+    avatar: MarkZuckerberg,
   },
   {
     review:
-      "The key is that we need to become a platform where metaverses can acquire talents.",
-    name: "Andrew McCarthy",
-    designation: "CEO of Rascals Games",
-    avatar: AuthorFour,
+      "Over the coming decades, the metaverse has the potential to become a multitrillion-dollar part of the world economy",
+    name: "Tim Sweeney",
+    designation: "CEO of Epic Games",
+    avatar: TimSweeney,
+  },
+  {
+    review:
+      "the economy of the virtual world will be much, much bigger than the economy of the physical world. You’re going to have more cars built and designed in virtual worlds, you’ll have more buildings, more roads, more houses — more hats, more bags, more jackets.",
+    name: "Jensen Huang",
+    designation: "CEO of Nvidia",
+    avatar: JensenHuang,
   },
 ];
 export const PARTNERS_LIST = [

@@ -80,7 +80,7 @@ ContactSection.defaultProps = {
   sectionWrapper: {
     id: "contact_section",
     as: "section",
-    pt: ["8px", "80px", "80px", "80px"],
+    mt: ["8px", "80px", "80px", "80px"],
     pb: ["0", "80px", "80px", "80px", "80px"],
   },
   secTitleWrapper: {
@@ -139,7 +139,7 @@ ContactSection.defaultProps = {
     textAlign: ["center", "center"],
   },
   title: {
-    content: "Get The Latest WorkXP Updates",
+    content: "Sign up to get early access to our beta launch.",
     fontSize: ["20px", "26px", "30px", "36px", "40px"],
     lineHeight: ["30px", "32px", "40px", "50px", "55px"],
     fontWeight: "700",
