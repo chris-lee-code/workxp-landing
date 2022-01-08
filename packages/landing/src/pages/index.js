@@ -9,15 +9,8 @@ import { DrawerProvider } from "common/contexts/DrawerContext";
 import Navbar from "containers/Crypto/Navbar";
 import Banner from "containers/Crypto/BannerSection";
 import BannerSlider from "containers/Crypto/BannerSlider";
-import CommunitySection from "containers/Crypto/CommunitySection";
-import CategoriesSection from "containers/Crypto/Categories";
-import JobsSection from "containers/Crypto/Jobs";
-import SlideSections from "containers/Crypto/CryptoSlides";
-import BetaSections from "containers/Crypto/BetaSection";
 import Footer from "containers/Crypto/Footer";
 import ContactSections from "containers/Crypto/Contact";
-import TrainingSection from "containers/Crypto/TrainingSection";
-import PartnersSection from "containers/Crypto/Partners";
 
 const Crypto = () => {
   return (

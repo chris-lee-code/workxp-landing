@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const TestimonialResponsiveWrapper = styled.section`
+  width: 440px;
+  @media (max-width: 440px) {
+    width: 100vw;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+`;
 const TestimonialSecWrapper = styled.section`
   padding: 0;
   background-size: cover;
@@ -17,7 +25,7 @@ const TestimonialSecWrapper = styled.section`
     margin-top: -40px;
   }
   @media (max-width: 480px) {
-    display: none;
+    margin-top: -40px;
   }
   .glide--carousel {
     display: flex;

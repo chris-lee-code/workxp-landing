@@ -11,6 +11,7 @@ import TestimonialSecWrapper, {
   ImageWrapper,
   TestimonialItem,
   BgImageWrapper,
+  TestimonialResponsiveWrapper,
 } from "./bannerSlider.style";
 
 import { TESTIMONIALS } from "common/data/Crypto";
@@ -32,7 +33,7 @@ const TestimonialSection = ({
   return (
     <TestimonialSecWrapper id="testimonial_section">
       <Container>
-        <div style={{ width: "440px" }}>
+        <TestimonialResponsiveWrapper>
           <GlideCarousel
             options={carouselOptions}
             bullets={true}
@@ -64,7 +65,7 @@ const TestimonialSection = ({
               ))}
             </>
           </GlideCarousel>
-        </div>
+        </TestimonialResponsiveWrapper>
       </Container>
     </TestimonialSecWrapper>
   );
